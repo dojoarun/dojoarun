@@ -17,7 +17,7 @@ const exp = [
     cardImage: "assets/images/experience-page/zellab.png",
     place: "Zellab Dynamics Pvt. Ltd.",
     time: "(Aug 2020 - Feb, 2021)",
-    desp: "<li>Worked as a Laravel Developer.</li><li>Part of Developing a E-Commerce Platform called 'Byskt'.</li><li>Worked as a System Administrator.</li>",
+    desp: "<li>Worked as a Laravel Developer.</li><li>Part of Developing an E-Commerce Platform called 'Byskt'.</li><li>Worked as a System Administrator.</li>",
   },
   {
     title: "Intern",
