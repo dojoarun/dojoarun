@@ -6,25 +6,25 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Software Development Engineer",
+    cardImage: "assets/images/experience-page/carestack.png",
+    place: "Carestack",
+    time: "(Feb, 2021 - present)",
+    desp: "<li>Works with Data migration Team.</li> <li>Works as a Data Analyst.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Software Development Engineer",
+    cardImage: "assets/images/experience-page/zellab.png",
+    place: "Zellab Dynamics Pvt. Ltd.",
+    time: "(Aug 2020 - Feb, 2021)",
+    desp: "<li>Worked as a Laravel Developer.</li><li>Part of Developing a E-Commerce Platform called 'Byskt'.</li><li>Worked as a System Administrator.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp:"<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Intern",
+    cardImage: "assets/images/experience-page/mocoit.png",
+    place: "MocoIT Labs Pvt. Ltd.",
+    time: "(Jun - July, 2019)",
+    desp:"<li>Worked on the BootStrap.</li><li>Introduction to iOS Application Development Using Xcode.</li>",
   },
 ];
 
@@ -64,26 +64,38 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
-    description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
-  },
-  {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
-    description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
-  },
-  {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
+    title: "IEEE SB CEK CS Chairperson",
+    cardImage: "assets/images/experience-page/ieeecs.png",
     description:
       "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
   },
   {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
+    title: "Luxathon 1.0",
+    cardImage: "assets/images/experience-page/lx1.jpg",
+    description:
+      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+  },
+  {
+    title: "Accreditation Student Lead",
+    cardImage: "assets/images/experience-page/nbi.png",
+    description:
+      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+  },
+  {
+    title: "Treasurer Chair in IPRECON 2020",
+    cardImage: "assets/images/experience-page/iprecon2020.jpg",
+    description:
+      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+  },
+  {
+    title: "Luxathon 2.0",
+    cardImage: "assets/images/experience-page/lx2.jpeg",
+    description:
+      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+  },
+  {
+    title: "WIPS",
+    cardImage: "assets/images/experience-page/wips.jpg",
     description:
       "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
   },
@@ -221,7 +233,6 @@ const showCards3 = () => {
           <div class="blog-slider__title">${title}</div>
           <span class="blog-slider__code">${subtitle}</span>
           <div class="blog-slider__text">${desp}</div>
-          <a href="#" class="blog-slider__button">Read More</a>   
         </div>
       </div>
       `)
